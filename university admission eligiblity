@@ -1,0 +1,12 @@
+percentage = float(input("Enter 12th percentage: "))
+maths = input("Studied Mathematics? (yes/no): ")
+entrance = int(input("Entrance exam score: "))
+
+if percentage < 75:
+    print("Rejected: Percentage below 75%")
+elif maths.lower() != "yes":
+    print("Rejected: Mathematics not studied")
+elif entrance < 80:
+    print("Rejected: Entrance score below 80")
+else:
+    print("Student is eligible for admission")
