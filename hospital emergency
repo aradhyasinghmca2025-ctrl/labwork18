@@ -1,0 +1,16 @@
+age = int(input("Enter age: "))
+heart_rate = int(input("Enter heart rate: "))
+injury = input("Severe injury? (yes/no): ")
+
+if heart_rate < 60 or heart_rate > 120 or injury.lower() == "yes":
+    condition = "Critical"
+elif 65 < age <= 100:
+    condition = "Moderate"
+else:
+    condition = "Normal"
+
+# Upgrade priority
+if age > 65 and condition == "Moderate":
+    condition = "Critical"
+
+print("Patient Condition:", condition)
