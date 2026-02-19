@@ -1,0 +1,19 @@
+cart = float(input("Enter cart value: "))
+membership = input("Membership (silver/gold/platinum/none): ")
+festival = input("Is it festival season? (yes/no): ")
+
+discount = 0
+
+if membership.lower() == "silver":
+    discount = 5
+elif membership.lower() == "gold":
+    discount = 10
+elif membership.lower() == "platinum":
+    discount = 15
+
+if festival.lower() == "yes" and discount < 20:
+    discount += 5
+
+final_amount = cart - (cart * discount / 100)
+print("Discount applied:", discount, "%")
+print("Final payable amount:", final_amount)
