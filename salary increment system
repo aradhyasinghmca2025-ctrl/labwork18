@@ -1,0 +1,16 @@
+rating = int(input("Performance rating (1-5): "))
+experience = int(input("Years of experience: "))
+attendance = int(input("Attendance percentage: "))
+
+increment = 0
+
+if rating >= 4 and experience >= 5 and attendance >= 90:
+    increment = 20
+elif rating >= 3 and experience >= 3 and attendance >= 80:
+    increment = 10
+elif rating >= 2:
+    increment = 5
+else:
+    increment = 0
+
+print("Salary Increment =", increment, "%")
