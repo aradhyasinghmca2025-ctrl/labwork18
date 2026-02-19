@@ -1,0 +1,21 @@
+income = float(input("Enter your annual income: "))
+age = int(input("Enter your age: "))
+
+# Exemption limit
+if age >= 60:
+    exempt = 300000
+else:
+    exempt = 250000
+
+tax = 0
+
+if income <= exempt:
+    tax = 0
+elif income <= 500000:
+    tax = (income - exempt) * 0.05
+elif income <= 1000000:
+    tax = (500000 - exempt) * 0.05 + (income - 500000) * 0.20
+else:
+    tax = (500000 - exempt) * 0.05 + (1000000 - 500000) * 0.20 + (income - 1000000) * 0.30
+
+print("Total tax =", tax)
