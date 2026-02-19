@@ -1,0 +1,7 @@
+amount = float(input("Enter transaction amount: "))
+international = input("Is the transaction international? (yes/no): ")
+
+if amount > 200000 and international.lower() == "yes":
+    print("Transaction flagged for manual verification.")
+else:
+    print("Transaction is normal.")
