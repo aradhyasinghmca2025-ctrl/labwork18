@@ -1,0 +1,13 @@
+# Bank Transaction Analyzer
+
+transactions = [5000, -2000, 15000, -8000, 12000]
+
+balance = sum(transactions)
+
+largest_withdrawal = min(transactions)
+
+big_deposits = len([t for t in transactions if t > 10000])
+
+print("Total Balance:", balance)
+print("Largest Withdrawal:", largest_withdrawal)
+print("Deposits > 10000:", big_deposits)
