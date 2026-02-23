@@ -1,0 +1,33 @@
+# # Salary Processing System
+
+salaries = [25000, 60000, 45000, 80000, 15000]
+
+# Remove salaries below minimum wage (20000)
+salaries = [s for s in salaries if s >= 20000]
+
+# Add 5% bonus
+for i in range(len(salaries)):
+    if salaries[i] > 50000:
+        salaries[i] = salaries[i] * 1.05
+
+# Sort in descending order
+salaries.sort(reverse=True)
+
+print("Processed Salaries:", salaries)
+print("Top 3 Salaries:", salaries[:3])m
+
+salaries = [25000, 60000, 45000, 80000, 15000]
+
+# Remove salaries below minimum wage (20000)
+salaries = [s for s in salaries if s >= 20000]
+
+# Add 5% bonus
+for i in range(len(salaries)):
+    if salaries[i] > 50000:
+        salaries[i] = salaries[i] * 1.05
+
+# Sort in descending order
+salaries.sort(reverse=True)
+
+print("Processed Salaries:", salaries)
+print("Top 3 Salaries:", salaries[:3])
