@@ -1,0 +1,12 @@
+# Sports Tournament Points Table
+
+points = [20, -5, 35, 15, 30]
+
+# Replace negative points with 0
+points = [p if p >= 0 else 0 for p in points]
+
+points.sort(reverse=True)
+
+print("Leaderboard:", points)
+print("Winner Points:", points[0])
+print("Runner-up Points:", points[1])
