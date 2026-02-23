@@ -1,0 +1,17 @@
+# E-Commerce Cart System
+
+prices = [1200, 2500, 1200, 800, 700]
+
+# Remove duplicate items
+prices = list(set(prices))
+
+total = sum(prices)
+
+# Apply discount
+if total > 5000:
+    total = total * 0.9
+
+# Add GST 18%
+total = total * 1.18
+
+print("Final Payable Amount:", total)
