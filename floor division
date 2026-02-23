@@ -1,0 +1,7 @@
+# Program to perform floor division
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+floor = a // b
+print("Floor Division =", floor)
