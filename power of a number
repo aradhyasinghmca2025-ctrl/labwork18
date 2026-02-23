@@ -1,0 +1,7 @@
+# Program to find power using ** operator
+
+a = int(input("Enter base: "))
+b = int(input("Enter power: "))
+
+power = a ** b
+print("Result =", power)
