@@ -1,0 +1,26 @@
+# Student Marks Analyzer
+
+marks = [95, 102, 78, -5, 88, 67, 95]
+
+# Remove invalid marks
+valid_marks = [m for m in marks if 0 <= m <= 100]
+
+# Calculate average
+average = sum(valid_marks) / len(valid_marks)
+
+# Find topper(s)
+topper = max(valid_marks)
+
+print("Valid Marks:", valid_marks)
+print("Average Marks:", average)
+print("Topper Marks:", topper)
+
+# Display grade based on average
+if average >= 90:
+    print("Grade: A")
+elif average >= 75:
+    print("Grade: B")
+elif average >= 50:
+    print("Grade: C")
+else:
+    print("Grade: Fail")
