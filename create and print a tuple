@@ -1,0 +1,4 @@
+# Program to create and print a tuple
+
+t = (10, 20, 30, 40)
+print("Tuple =", t)
