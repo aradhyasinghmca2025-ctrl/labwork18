@@ -1,0 +1,4 @@
+# Program to create a set
+
+s = {1, 2, 3, 4}
+print("Set =", s)
