@@ -1,0 +1,9 @@
+# Program to create class and object
+
+class Student:
+    name = "Ram"
+    age = 20
+
+s = Student()
+print("Name =", s.name)
+print("Age =", s.age)
