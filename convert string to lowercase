@@ -1,0 +1,4 @@
+# Program to convert string to lowercase
+
+s = input("Enter string: ")
+print("Lowercase =", s.lower())
