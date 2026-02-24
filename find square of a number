@@ -1,0 +1,6 @@
+# Program to find square of a number
+
+n = int(input("Enter number: "))
+
+square = n * n
+print("Square =", square)
