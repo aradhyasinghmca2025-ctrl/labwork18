@@ -1,0 +1,5 @@
+# Program to write data to a file
+
+f = open("test.txt", "w")
+f.write("Hello Python File Handling")
+f.close()
