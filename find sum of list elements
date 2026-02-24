@@ -1,0 +1,6 @@
+# Program to find sum of list elements
+
+my_list = [10, 20, 30, 40]
+total = sum(my_list)
+
+print("Sum =", total)
