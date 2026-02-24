@@ -1,0 +1,4 @@
+# Program to find length of string
+
+s = "Python Programming"
+print("Length =", len(s))
