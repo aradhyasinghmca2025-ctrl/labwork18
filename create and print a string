@@ -1,0 +1,4 @@
+# Program to create and print a string
+
+s = "Hello Python"
+print(s)
