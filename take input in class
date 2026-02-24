@@ -1,0 +1,8 @@
+# Program to take input in class
+
+class Student:
+    def __init__(self, name):
+        self.name = name
+
+s = Student(input("Enter name: "))
+print("Name =", s.name)
