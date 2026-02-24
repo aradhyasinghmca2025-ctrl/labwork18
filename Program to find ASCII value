@@ -1,0 +1,4 @@
+# Program to find ASCII value
+
+ch = input("Enter a character: ")
+print("ASCII value =", ord(ch))
