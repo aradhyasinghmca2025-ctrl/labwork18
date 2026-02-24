@@ -1,0 +1,6 @@
+# Program to loop through dictionary
+
+d = {"name": "Ram", "age": 20}
+
+for key, value in d.items():
+    print(key, "=", value)
