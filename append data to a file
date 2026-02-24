@@ -1,0 +1,5 @@
+# Program to append data to a file
+
+f = open("test.txt", "a")
+f.write("\nThis is new line")
+f.close()
