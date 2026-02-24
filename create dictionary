@@ -1,0 +1,4 @@
+# Program to create dictionary
+
+d = {"name": "Ram", "age": 20}
+print(d)
