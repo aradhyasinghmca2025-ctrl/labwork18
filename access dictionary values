@@ -1,0 +1,5 @@
+# Program to access dictionary values
+
+d = {"name": "Ram", "age": 20}
+print("Name =", d["name"])
+print("Age =", d["age"])
