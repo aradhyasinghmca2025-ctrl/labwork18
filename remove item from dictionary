@@ -1,0 +1,6 @@
+# Program to remove item from dictionary
+
+d = {"name": "Ram", "age": 20}
+del d["age"]
+
+print(d)
