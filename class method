@@ -1,0 +1,8 @@
+# Program with class method
+
+class Student:
+    def show(self):
+        print("This is Student Class")
+
+s = Student()
+s.show()
