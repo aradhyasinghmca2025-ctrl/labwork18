@@ -1,0 +1,6 @@
+# Program to add item in dictionary
+
+d = {"name": "Ram"}
+d["age"] = 20
+
+print(d)
