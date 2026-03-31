@@ -1,0 +1,18 @@
+# Program to create a bar chart
+
+import matplotlib.pyplot as plt
+
+# Product names
+products = ['P1', 'P2', 'P3', 'P4', 'P5']
+
+# Sales data
+sales = [100, 150, 200, 130, 170]
+
+# Create bar chart
+plt.bar(products, sales)
+
+plt.title("Product Sales")
+plt.xlabel("Products")
+plt.ylabel("Sales")
+
+plt.show()
