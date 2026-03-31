@@ -1,0 +1,5 @@
+def sort_by_marks(lst):
+    return sorted(lst, key=lambda x: x[1])
+
+students = [("A", 85), ("B", 70), ("C", 90)]
+print(sort_by_marks(students))
