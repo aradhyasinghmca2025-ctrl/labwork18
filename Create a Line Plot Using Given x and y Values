@@ -1,0 +1,17 @@
+# Program to create a line plot
+
+import matplotlib.pyplot as plt
+
+# Given data
+x = [1, 2, 3, 4, 5]
+y = [2, 4, 6, 8, 10]
+
+# Create line plot
+plt.plot(x, y)
+
+# Display plot
+plt.title("Line Plot")
+plt.xlabel("X values")
+plt.ylabel("Y values")
+
+plt.show()
