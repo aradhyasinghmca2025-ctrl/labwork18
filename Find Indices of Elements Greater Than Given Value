@@ -1,0 +1,11 @@
+# Program to find indices of elements greater than a value
+
+import numpy as np
+
+array = np.array([10, 25, 30, 5, 40])
+value = 20
+
+# Find indices
+indices = np.where(array > value)
+
+print("Indices:", indices)
