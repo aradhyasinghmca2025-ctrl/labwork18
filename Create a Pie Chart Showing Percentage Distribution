@@ -1,0 +1,14 @@
+# Program to create a pie chart
+
+import matplotlib.pyplot as plt
+
+# Category data
+categories = ['A', 'B', 'C', 'D']
+values = [25, 30, 20, 25]
+
+# Create pie chart
+plt.pie(values, labels=categories, autopct='%1.1f%%')
+
+plt.title("Percentage Distribution")
+
+plt.show()
