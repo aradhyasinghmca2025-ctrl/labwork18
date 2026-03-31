@@ -1,0 +1,10 @@
+# Program to normalize array values between 0 and 1
+
+import numpy as np
+
+array = np.array([10, 20, 30, 40, 50])
+
+# Normalize values
+normalized_array = (array - array.min()) / (array.max() - array.min())
+
+print("Normalized Array:", normalized_array)
