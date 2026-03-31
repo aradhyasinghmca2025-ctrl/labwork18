@@ -1,0 +1,15 @@
+# Program to create histogram
+
+import matplotlib.pyplot as plt
+
+# Random dataset
+data = [12, 15, 14, 10, 18, 20, 16, 15, 17, 19]
+
+# Create histogram
+plt.hist(data)
+
+plt.title("Histogram")
+plt.xlabel("Values")
+plt.ylabel("Frequency")
+
+plt.show()
